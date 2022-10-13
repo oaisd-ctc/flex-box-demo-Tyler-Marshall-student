@@ -1,0 +1,17 @@
+.power-2
+{
+    height: 50px;
+    width: 50%;
+    background-color: blue;
+    color: black;
+}
+
+#animate
+{
+    flex: 1;
+}
+
+#animate:hover
+{
+    flex: 2;
+}
