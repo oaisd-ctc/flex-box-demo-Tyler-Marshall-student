@@ -6,11 +6,7 @@
     background-color: rgb(255, 100, 0);
     margin-left: 446px;
     margin-top: 100px;
-}
-
-#animate
-{
-    animation: pluse 0.1s infinite;
+    animation: pluse 50s infinite;
 }
 
 @keyframes pluse
