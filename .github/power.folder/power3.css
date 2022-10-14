@@ -1,0 +1,50 @@
+.power-3
+{
+    height: 50px;
+    width: 10%;
+    background-color: blue;
+    border-style: solid;
+    border-color: rgb(0, 0, 128);
+}
+
+#animate1
+{
+    margin: auto;
+    max-width: unset;
+    font-size: 2em;
+    text-align: center;
+    flex: 1;
+}
+
+#animate2
+{
+    margin: auto;
+    max-width: unset;
+    font-size: 2em;
+    text-align: center;
+    flex: 1;
+}
+
+#animate3
+{
+    margin: auto;
+    max-width: unset;
+    font-size: 2em;
+    text-align: center;
+    flex: 1;
+}
+
+#animate1:hover
+{
+    flex: 2;
+}
+
+#animate2:hover
+{
+    flex: 2;
+}
+
+#animate3:hover
+{
+    flex: 2;
+}

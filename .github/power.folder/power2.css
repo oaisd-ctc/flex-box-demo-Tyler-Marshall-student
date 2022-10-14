@@ -1,17 +1,30 @@
 .power-2
 {
-    height: 50px;
+    height: 100px;
     width: 50%;
-    background-color: blue;
-    color: black;
+    border-radius: 10px;
+    background-color: rgb(255, 100, 0);
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    animation: pulse 5s infinite;
+    display: flex;
 }
 
-#animate
+@keyframes pulse
 {
-    flex: 1;
-}
+    0%
+    {
+        transform: scale(2);
+    }
 
-#animate:hover
-{
-    flex: 2;
+    50%
+    {
+        transform: scale(1);
+    }
+
+    100%
+    {
+        transform: scale(2);
+    }
 }
