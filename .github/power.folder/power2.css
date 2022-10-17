@@ -1,14 +1,16 @@
 .power-2
 {
-    height: 100px;
+    height: 80px;
     width: 50%;
     border-radius: 10px;
     background-color: rgb(255, 100, 0);
     margin: auto;
-    justify-content: center;
-    flex-wrap: wrap;
-    animation: pulse 0.4s infinite;
     display: flex;
+}
+
+#power2
+{
+    animation: pulse 0.4s infinite;
 }
 
 @keyframes pulse
