@@ -7,7 +7,7 @@
     margin: auto;
     justify-content: center;
     flex-wrap: wrap;
-    animation: pulse 5s infinite;
+    animation: pulse 0.4s infinite;
     display: flex;
 }
 
@@ -21,6 +21,36 @@
     50%
     {
         transform: scale(1);
+    }
+
+    51%
+    {
+        transform: scale(0.8);
+    }
+
+    52%
+    {
+        transform: scale(0.4);
+    }
+
+    52.2%
+    {
+        transform: scale(0.2);
+    }
+
+    70%
+    {
+        transform: scale(0.8);
+    }
+    
+    80%
+    {
+        transform: scale(1);
+    }
+    
+    90%
+    {
+        transform: scale(2);
     }
 
     100%
