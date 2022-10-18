@@ -8,9 +8,16 @@
     display: flex;
 }
 
-#power2
+#power1
 {
     animation: pulse 0.4s infinite;
+}
+
+#power2
+{
+    min-height: 20vh;
+    align-items: stretch;
+    justify-content: space-between;
 }
 
 @keyframes pulse
