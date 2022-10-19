@@ -1,0 +1,10 @@
+.power-5
+{
+    height: 50px;
+    width: 10%;
+    background-color: blue;
+    border-style: solid;
+    border-color: rgb(0, 0, 128);
+    padding: 2em;
+    text-align: center;
+}
