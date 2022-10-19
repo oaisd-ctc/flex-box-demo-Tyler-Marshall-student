@@ -5,6 +5,7 @@
     background-color: blue;
     border-style: solid;
     border-color: rgb(0, 0, 128);
-    padding: 2em;
+    padding: 0.5em;
     text-align: center;
+    font-size: 4em;
 }
