@@ -5,16 +5,19 @@
     background-color: rgb(255, 100, 0);
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 #power2-1
 {
     width: 50%;
+    flex-wrap: wrap;
     !animation: pulse1 1s infinite;
 }
 
 #power2-2
 {
+    flex-wrap: wrap;
     min-height: 20vh;
     align-items: stretch;
     justify-content: space-between;
@@ -25,6 +28,7 @@
 
 #power2-3
 {
+    flex-wrap: wrap;
     width: 20%;
     flex-direction: column;
     display: flex;

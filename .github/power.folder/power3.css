@@ -5,10 +5,12 @@
     background-color: blue;
     border-style: solid;
     border-color: rgb(0, 0, 128);
+    flex-wrap: wrap;
 }
 
 #animate1
 {
+    flex-wrap: wrap;
     margin: auto;
     max-width: unset;
     font-size: 2em;
@@ -18,6 +20,7 @@
 
 #animate2
 {
+    flex-wrap: wrap;
     margin: auto;
     max-width: unset;
     font-size: 2em;
@@ -27,6 +30,7 @@
 
 #animate3
 {
+    flex-wrap: wrap;
     margin: auto;
     max-width: unset;
     font-size: 2em;
